@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class=" main">
+        <div class="container">
+            <div class=" d-flex justify-content-center align-items-center">
+                <h1>Book Marker</h1>
+            </div>
+            <div class="dots m-auto"></div>
+            <div class="bookmark d-flex justify-content-center align-items-center my-3">
+                <i class=" icon1 fa-solid fa-bookmark fa-lg "></i>
+                <h2>Bookmark your favorite sites</h2>
+                <i class=" icon2 fa-solid fa-bookmark fa-lg"></i>
+            </div>
+            <label for="namemark">
+                <i class="fa-solid fa-file-signature fa-lg"></i>
+                Site Name
+            </label>
+            
+            <input id="namemark" type="text" class="form-control my-2" placeholder="Bookmark Name">
+            <label for="sitemark">
+                <i class="fa-solid fa-link fa-lg"></i>
+                Site URL
+            </label>
+            
+            <input id="sitemark" type="text" class="form-control my-2" placeholder="Website URL">
+             <button id="btnSubmit" class="btn btn-danger m-auto px-5 my-3"> Submit </button>
+             <table  class="table bg-white">
+                
+                <thead>
+                    <tr class="text-center">
+                        <th>Index</th>
+                        <th>Website Name</th>
+                        <th>Website URL</th>
+                        <th>Visit</th>
+                        <th>Updata</th>
+                        <th>Delete</th>
+                    </tr>   
+                </thead>
+                <tbody id="tBody">
+                    
+                </tbody>
+             </table>
+        </div>
+
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
